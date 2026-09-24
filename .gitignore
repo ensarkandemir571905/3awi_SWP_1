@@ -386,3 +386,4 @@ MSBuild_Logs/
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
 
+/3awi_SWP_1/Grundlagen1/.vs
