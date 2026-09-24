@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ensar\\3aWI_SWP\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj": {}
+    "C:\\Users\\ensar\\3aWI-SWP\\3awi_SWP_1\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ensar\\3aWI_SWP\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj": {
+    "C:\\Users\\ensar\\3aWI-SWP\\3awi_SWP_1\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ensar\\3aWI_SWP\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj",
+        "projectUniqueName": "C:\\Users\\ensar\\3aWI-SWP\\3awi_SWP_1\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj",
         "projectName": "HelloSWP",
-        "projectPath": "C:\\Users\\ensar\\3aWI_SWP\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj",
+        "projectPath": "C:\\Users\\ensar\\3aWI-SWP\\3awi_SWP_1\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\HelloSWP.csproj",
         "packagesPath": "C:\\Users\\ensar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ensar\\3aWI_SWP\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\obj\\",
+        "outputPath": "C:\\Users\\ensar\\3aWI-SWP\\3awi_SWP_1\\3awi_SWP_1\\Grundlagen1\\HelloSWP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
