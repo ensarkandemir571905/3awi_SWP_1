@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 class Program
 {
@@ -12,28 +11,29 @@ class Program
         {
             Console.WriteLine("Die Eingabe ist ein Integer.");
             Console.WriteLine("Wert: " + ganzeZahl);
+            Console.ReadKey();
+            return;
         }
-        else if (bool.TryParse(eingabe, out bool wahrheitswert))
+
+        if (bool.TryParse(eingabe, out bool wahrheitswert))
         {
             Console.WriteLine("Die Eingabe ist ein Bool.");
             Console.WriteLine("Wert: " + wahrheitswert);
+            Console.ReadKey();
+            return;
         }
-        else if (double.TryParse(eingabe, out double kommazahl))
+
+        if (double.TryParse(eingabe, out double kommazahl))
         {
             Console.WriteLine("Die Eingabe ist eine rationale Zahl (double).");
             Console.WriteLine("Wert: " + kommazahl);
-        }
-        else
-        {
-            Console.WriteLine("Die Eingabe ist ein String.");
-            Console.WriteLine("Wert: " + eingabe);
+            Console.ReadKey();
+            return;
         }
 
-        Console.WriteLine();
-        Console.WriteLine("Drücken Sie eine Taste zum Beenden...");
+        Console.WriteLine("Die Eingabe ist ein String.");
+        Console.WriteLine("Wert: " + eingabe);
+
         Console.ReadKey();
     }
 }
-
-
-
