@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
+
 namespace FirstOOP
 {
     public class Kuh
@@ -20,10 +22,16 @@ namespace FirstOOP
             set { _colour = value; }
         }
 
-        public Kuh(string Name, string Colour)
+
+        public Kuh(string name, string colour)
         {
-            _name = Name;
-            _colour = Colour;
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new InvalidDataException();
+            }
+
+            _name = name;
+            _colour = colour;
         }
+
     }
-}
